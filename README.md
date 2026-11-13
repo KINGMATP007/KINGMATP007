@@ -4,7 +4,6 @@
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/PROFILE-NIGHT%20VOLTAGE-FF1744?style=for-the-badge&labelColor=050505" alt="Night Voltage profile" />
   <img src="https://img.shields.io/badge/FOCUS-LINUX-E9FF00?style=for-the-badge&labelColor=050505" alt="Linux" />
   <img src="https://img.shields.io/badge/FOCUS-NETWORKING-FF1744?style=for-the-badge&labelColor=050505" alt="Networking" />
   <img src="https://img.shields.io/badge/FOCUS-SECURITY-E9FF00?style=for-the-badge&labelColor=050505" alt="Cybersecurity" />
