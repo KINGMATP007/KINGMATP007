@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">KINGMATP007 — Night Voltage</title>
+  <desc id="desc">A black futuristic banner with neon red circuitry and electric yellow typography.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF1744"/>
+      <stop offset="0.52" stop-color="#E9FF00"/>
+      <stop offset="1" stop-color="#FF1744"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF1744" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#E9FF00" stop-opacity=".04"/>
+    </linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#FF1744" stroke-opacity=".13" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-30%" y="-50%" width="160%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="#050505"/>
+  <rect x="1" y="1" width="1198" height="318" rx="17" fill="url(#grid)" stroke="#FF1744" stroke-opacity=".72" stroke-width="2"/>
+  <path d="M0 255H180L218 217H315M1200 72H1050L1018 104H940" fill="none" stroke="#FF1744" stroke-width="2" stroke-opacity=".8"/>
+  <path d="M0 273H162L194 241H270M1200 91H1074L1042 123H972" fill="none" stroke="#E9FF00" stroke-width="1.5" stroke-opacity=".72"/>
+  <circle cx="180" cy="255" r="4" fill="#E9FF00" filter="url(#softGlow)"/>
+  <circle cx="1050" cy="72" r="4" fill="#E9FF00" filter="url(#softGlow)"/>
+  <path d="M785 0L1200 0V320H1005Z" fill="url(#glow)" opacity=".65"/>
+  <path d="M34 34H90M34 34V90M1166 286H1110M1166 286V230" stroke="url(#edge)" stroke-width="3" fill="none"/>
+  <text x="600" y="135" text-anchor="middle" fill="#E9FF00" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="5" filter="url(#softGlow)">KINGMATP007</text>
+  <rect x="365" y="160" width="470" height="2" fill="url(#edge)"/>
+  <text x="600" y="202" text-anchor="middle" fill="#FF1744" font-family="Consolas, monospace" font-size="19" font-weight="700" letter-spacing="4">NIGHT VOLTAGE // PROFILE SYSTEM</text>
+  <text x="600" y="246" text-anchor="middle" fill="#C7C7C7" font-family="Consolas, monospace" font-size="14" letter-spacing="2">LINUX  •  NETWORKING  •  SECURITY  •  AUTOMATION</text>
+  <text x="50" y="294" fill="#E9FF00" font-family="Consolas, monospace" font-size="10" letter-spacing="2">SYS.ONLINE</text>
+  <text x="1150" y="294" text-anchor="end" fill="#FF1744" font-family="Consolas, monospace" font-size="10" letter-spacing="2">NV-007</text>
+</svg>

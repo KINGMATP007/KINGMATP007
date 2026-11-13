@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="18" viewBox="0 0 1200 18" role="img" aria-label="Neon red and yellow divider">
+  <defs><linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF1744"/><stop offset=".5" stop-color="#E9FF00"/><stop offset="1" stop-color="#FF1744"/></linearGradient></defs>
+  <path d="M0 9H1200" stroke="url(#line)" stroke-width="2"/>
+  <path d="M590 3L600 9L590 15M610 3L600 9L610 15" fill="none" stroke="#E9FF00" stroke-width="1.5"/>
+</svg>
